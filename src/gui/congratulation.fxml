@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="600.0" prefHeight="700.0" prefWidth="600.0" style="-fx-background-image: url('file:resource/appimage/congrats.jpg'); -fx-background-size: contain; -fx-background-repeat: no-repeat; -fx-background-position: center center;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CongratulationController" stylesheets="@styles.css">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="congrats" alignment="CENTER" layoutX="94.0" layoutY="61.0" prefHeight="125.0" prefWidth="413.0" text="CHÚC MỪNG!" textAlignment="CENTER">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="answer" alignment="CENTER" layoutX="180.0" layoutY="167.0" prefHeight="69.0" prefWidth="240.0" text="Bạn đã tìm ra đáp án: " textAlignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <HBox layoutX="184.0" layoutY="517.0" prefHeight="53.0" prefWidth="244.0" spacing="5.0">
+               <children>
+                  <Label fx:id="prize" prefHeight="45.0" prefWidth="139.0" text="Bạn được tặng:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="rubyIncrementLabel" alignment="CENTER" prefHeight="45.0" prefWidth="32.0" text="x">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="47.0" prefWidth="44.0" text="Ruby" style="-fx-text-fill: #0E17E3; -fx-font-weight: bold;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <FlowPane fx:id="answerHolder" alignment="CENTER" hgap="20.0" layoutX="40.0" layoutY="236.0" prefHeight="113.0" prefWidth="533.0" vgap="10.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="142.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="nextButton" layoutX="225.0" layoutY="33.0" mnemonicParsing="false" onAction="#nextBtnClicked" prefHeight="38.0" prefWidth="150.0" text="Tiếp Tục">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
