@@ -1,0 +1,169 @@
+#beginButton, #nextButton, #playAgainButton {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 25px;
+    -fx-font-family: 'comic sans ms';
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #87FF5B, #256D0B);
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+#beginButton:hover, #nextButton:hover, #playAgainButton:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #96FF70, #3E8923);
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#beginButton:pressed, #nextButton:pressed, #playAgainButtonButton:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #76DA51, #255D11);
+    -fx-scale-x: 0.975;
+    -fx-scale-y: 0.975;
+}
+
+#redeemButton {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 25px;
+    -fx-font-family: 'comic sans ms';
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #FFC061, #CB7A00);
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+#redeemButton:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #FFC976, #D58712);
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#redeemButtonButton:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #FFC061, #CB7A00);
+    -fx-scale-x: 0.975;
+    -fx-scale-y: 0.975;
+}
+
+#homeButton {
+    -fx-background-color: #51CF23;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2.5px;
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+#homeButton:hover {
+    -fx-background-color: #6AD244;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#homeButton:pressed {
+    -fx-background-color: #49B222;
+    -fx-scale-x: 0.975;
+    -fx-scale-y: 0.975;
+}
+
+#muteButton {
+    -fx-background-color: #0DB3EA;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2.5px;
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+ #muteButton:hover {
+    -fx-background-color: #3BCAF8;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+ #muteButton:pressed {
+    -fx-background-color: #0088B4;
+    -fx-scale-x: 0.975;
+    -fx-scale-y: 0.975;
+}
+
+#hintButton {
+    -fx-background-color: #F39C12;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2.5px;
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+#hintButton:hover {
+    -fx-background-color: #FFB033;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#hintButton:pressed {
+    -fx-background-color: #D68A12;
+    -fx-scale-x: 0.975;
+    -fx-scale-y: 0.975;
+}
+
+.buttonWord {
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 1);
+}
+
+.buttonWord:hover {
+    -fx-background-color: #FFFF00;
+}
+
+#borderPane {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #009ACD, #25C8FF);
+}
+
+#AnchorPane {
+    -fx-background-color: #25C8FF;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 1);
+    -fx-opacity: 1;
+}
+
+#levelLabel {
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-text-fill: #FFFFFF;
+}
+
+#rubyLb {
+    -fx-text-fill: #E0115F;
+    -fx-opacity: 1;
+}
+
+#rubyLabel1 {
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#congrats {
+    -fx-text-fill: #ee7942;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#answer {
+    -fx-text-fill: #FFFFFF;
+}
+
+#prize {
+    -fx-text-fill: #0E17E3;
+    -fx-font-weight: bold;
+}
+
+#rubyIncrementLabel {
+    -fx-text-fill: red;
+}
+
+#gameOver {
+    -fx-text-fill: #cd0000;
+    -fx-font-family: "Tahoma";
+}
+
+#wellPlayed {
+    -fx-text-fill: yellow;
+}
